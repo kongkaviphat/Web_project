@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background-color: #FFF4E6;
+        height: 70%;
+    }  
+    
+    li,a{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #000;
+        text-decoration: none;
+    }
+    
+    header{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        background-color: #fff;
+        height: 40%;
+    }
+    
+    .logo{
+        cursor: pointer;
+        margin-right: auto;
+    }
+    .nav_link{
+        list-style: none;
+        background-color: #fff;
+    }
+    .nav_link li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .nav_link li a{
+        transition: all 0.3s ease-in-out;
+    }
+    .nav_link li a:hover{
+        color:#0088a8;
+    }
+/* end navbar */
+#sect{
+    margin-left: 80%;
+}
+/* end section */
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer{
+    background-color: #2A6478;
+    padding: 15px;
+    color: #fff;
+}
+.footer-c{
+     width: 25%;
+     padding: 0 0px;
+}
+.footer-c h4{
+    font-size: 18px;
+    color: #fff;
+}
+.footer-c ul li a{
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    list-style: none;
+}
+/* end footer */
